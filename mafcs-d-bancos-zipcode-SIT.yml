@@ -8,4 +8,4 @@ spring:
       host: localhost
       port: 27017
 controller:
-  uri: /api/v1/bancos/estado/{state}
+  uri: /api/v1/bancos/zipcode/{postalcode}
