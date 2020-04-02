@@ -1,0 +1,12 @@
+controller:
+  uri: /api/v1/sucursales/retrieve
+client:
+  coordenadas:
+    name: MAFCS-D-BANCOS-COORDENADAS
+    uri: /api/v1/bancos/coordenadas/
+  estado:
+    name: MAFCS-D-BANCOS-ESTADO
+    uri: /api/v1/bancos/estado/{state}
+  zipcode:
+    name: MAFCS-D-BANCOS-ZIPCODE
+    uri: /api/v1/bancos/zipcode/{postalcode}
