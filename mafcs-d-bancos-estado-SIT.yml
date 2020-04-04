@@ -16,3 +16,11 @@ client:
     name: Bancos-Json
     url: localhost:9090
     uri: /api/v1/legacy/bancos/estado/{estado}
+
+exceptions:
+  message: 
+    notfound: NOT FOUND
+    badrequest: BAD REQUEST
+  location:
+    service: Service
+    controller: controller
