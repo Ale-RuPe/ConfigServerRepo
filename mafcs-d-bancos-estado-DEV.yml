@@ -12,6 +12,6 @@ controller:
   uri: /api/v1/bancos/estado/{state}
 
 client:
-  zipcode:
+  estado:
     name: Bancos-Json
     uri: /api/v1/legacy/bancos/estado/{estado}

@@ -7,5 +7,11 @@ spring:
       database: Bancos-DEV
       host: localhost
       port: 27017
+
 controller:
   uri: /api/v1/bancos/coordenadas/
+
+client:
+  coordenadas:
+    name: Bancos-Json
+    uri: /api/v1/legacy/bancos/coordinates
