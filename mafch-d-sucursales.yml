@@ -1,5 +1,6 @@
 controller:
   uri: /api/v1/sucursales/retrieve
+
 client:
   coordenadas:
     name: MAFCS-D-BANCOS-COORDENADAS
@@ -10,3 +11,11 @@ client:
   zipcode:
     name: MAFCS-D-BANCOS-ZIPCODE
     uri: /api/v1/bancos/zipcode/{postalcode}
+
+exceptions:
+  message: 
+    notfound: NOT FOUND
+    badrequest: BAD REQUEST
+  location:
+    service: Service
+    controller: controller

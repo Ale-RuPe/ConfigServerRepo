@@ -17,10 +17,34 @@ client:
     url: localhost:9090
     uri: /api/v1/legacy/bancos/coordinates
 
+header:
+  accept:
+    name: Accept
+  uuid:
+    name: uuid 
+  countryCode:
+    name: countryCode
+  channelId:
+    name: ChannelId
+  businessCode:
+    name: businessCode
+  messages:
+    missingHeader: Missing Header 
+
+requestParams:
+  coordX:
+    name: gpsCoordX
+  coordY:
+    name: gpsCoordY
+  messages:
+    missingParam: Missing request param
+
 exceptions:
   message: 
     notfound: NOT FOUND
     badrequest: BAD REQUEST
+    invalidHeader: INVALID HEADER
+    invalidRequestParam: INVALID REQUEST PARAMETER
   location:
     service: Service
     controller: controller
