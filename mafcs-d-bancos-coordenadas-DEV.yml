@@ -23,11 +23,11 @@ header:
   uuid:
     name: uuid 
   countryCode:
-    name: countryCode
+    name: countrycode
   channelId:
-    name: channelId
+    name: channelid
   businessCode:
-    name: businessCode
+    name: businesscode
   messages:
     missingHeader: Missing Header
 
