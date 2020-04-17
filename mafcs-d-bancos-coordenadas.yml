@@ -19,17 +19,17 @@ client:
     
 header:
   accept:
-    name: Accept
+    name: accept
   uuid:
     name: uuid 
   countryCode:
     name: countryCode
   channelId:
-    name: ChannelId
+    name: channelId
   businessCode:
     name: businessCode
   messages:
-    missingHeader: Missing Header 
+    missingHeader: Missing Header
 
 requestParams:
   coordX:
@@ -47,4 +47,5 @@ exceptions:
     invalidRequestParam: INVALID REQUEST PARAMETER
   location:
     service: Service
-    controller: controller
+    controller: Controller
+    dao: DAO
