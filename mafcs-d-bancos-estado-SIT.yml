@@ -17,10 +17,35 @@ client:
     url: localhost:9090
     uri: /api/v1/legacy/bancos/estado/{estado}
 
+header:
+  accept:
+    name: accept
+  uuid:
+    name: uuid 
+  countryCode:
+    name: countrycode
+  channelId:
+    name: channelid
+  businessCode:
+    name: businesscode
+  messages:
+    missingHeader: Missing Header
+
+requestParams:
+  coordX:
+    name: gpsCoordX
+  coordY:
+    name: gpsCoordY
+  messages:
+    missingParam: Missing request param
+
 exceptions:
   message: 
     notfound: NOT FOUND
     badrequest: BAD REQUEST
+    invalidHeader: INVALID HEADER
+    invalidRequestParam: INVALID REQUEST PARAMETER
   location:
     service: Service
-    controller: controller
+    controller: Controller
+    dao: DAO
