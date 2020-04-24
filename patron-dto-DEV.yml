@@ -9,7 +9,7 @@ spring:
       port: 27017
   datasource:
     password: root
-    url: jdbc:postgresql://localhost:5432/tareadto
+    url: jdbc:postgresql://localhost:5432/tarea_dto
     username: postgres
     platform: postgres
   jpa:
