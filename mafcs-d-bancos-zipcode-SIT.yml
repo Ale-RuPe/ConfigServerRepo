@@ -17,6 +17,7 @@ client:
     url: localhost:9090
     uri: /api/v1/legacy/bancos/zipcode/
     path-variable: {zipcode}
+    host: http://localhost:9090
     
 header:
   accept:
