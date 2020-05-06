@@ -15,8 +15,9 @@ client:
   zipcode:
     name: Bancos-Json
     url: localhost:9090
-    uri: /api/v1/legacy/bancos/zipcode/{zipcode}
-
+    uri: /api/v1/legacy/bancos/zipcode/
+    path-variable: {zipcode}
+    
 header:
   accept:
     name: accept
